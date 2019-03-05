@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33514BD9221EE15F00E1185A /* ZJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BD8221EE15F00E1185A /* ZJNavigationController.m */; };
+		33514BDC221EE1B400E1185A /* ZJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BDB221EE1B400E1185A /* ZJTabBar.m */; };
+		33514BDF221EE21700E1185A /* ZJTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BDE221EE21700E1185A /* ZJTabBarButton.m */; };
+		33514BE2221EE25600E1185A /* ZJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BE1221EE25600E1185A /* ZJTabBarController.m */; };
+		33514BE5221EE2A300E1185A /* ZJTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BE4221EE2A300E1185A /* ZJTabBarItem.m */; };
+		33514BE8221EE6DD00E1185A /* MainPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BE7221EE6DD00E1185A /* MainPageController.m */; };
+		33514BEB221EE71E00E1185A /* MyNewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BEA221EE71E00E1185A /* MyNewsController.m */; };
+		33514BEE221EE73E00E1185A /* PersonalCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BED221EE73E00E1185A /* PersonalCenterController.m */; };
+		33514BF1221EE77A00E1185A /* ReleaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BF0221EE77A00E1185A /* ReleaseController.m */; };
+		33514BF4221EE79A00E1185A /* TakingOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BF3221EE79A00E1185A /* TakingOrderController.m */; };
+		33659701221EC38300C249CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33659700221EC38300C249CF /* AppDelegate.m */; };
+		3365970A221EC38300C249CF /* SleepyFish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33659708221EC38300C249CF /* SleepyFish.xcdatamodeld */; };
+		3365970C221EC38300C249CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3365970B221EC38300C249CF /* Assets.xcassets */; };
+		3365970F221EC38300C249CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3365970D221EC38300C249CF /* LaunchScreen.storyboard */; };
+		33659712221EC38300C249CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33659711221EC38300C249CF /* main.m */; };
+		3365971C221EC38300C249CF /* SleepyFishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365971B221EC38300C249CF /* SleepyFishTests.m */; };
+		33659727221EC38300C249CF /* SleepyFishUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33659726221EC38300C249CF /* SleepyFishUITests.m */; };
+		33659766221EC4BD00C249CF /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33659765221EC4BD00C249CF /* MainPage.storyboard */; };
+		33659768221EC4EA00C249CF /* MyNews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33659767221EC4EA00C249CF /* MyNews.storyboard */; };
+		3365976A221EC52200C249CF /* PersonalCenter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33659769221EC52200C249CF /* PersonalCenter.storyboard */; };
+		3365976C221EC54600C249CF /* Release.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3365976B221EC54600C249CF /* Release.storyboard */; };
+		3365976E221EC56D00C249CF /* TakingOrder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3365976D221EC56D00C249CF /* TakingOrder.storyboard */; };
+		33659793221EDD1800C249CF /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33659792221EDD1800C249CF /* MyTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33659718221EC38300C249CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336596F4221EC38200C249CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336596FB221EC38200C249CF;
+			remoteInfo = SleepyFish;
+		};
+		33659723221EC38300C249CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 336596F4221EC38200C249CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 336596FB221EC38200C249CF;
+			remoteInfo = SleepyFish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33514BD7221EE15F00E1185A /* ZJNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJNavigationController.h; sourceTree = "<group>"; };
+		33514BD8221EE15F00E1185A /* ZJNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJNavigationController.m; sourceTree = "<group>"; };
+		33514BDA221EE1B400E1185A /* ZJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTabBar.h; sourceTree = "<group>"; };
+		33514BDB221EE1B400E1185A /* ZJTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTabBar.m; sourceTree = "<group>"; };
+		33514BDD221EE21700E1185A /* ZJTabBarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTabBarButton.h; sourceTree = "<group>"; };
+		33514BDE221EE21700E1185A /* ZJTabBarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarButton.m; sourceTree = "<group>"; };
+		33514BE0221EE25600E1185A /* ZJTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTabBarController.h; sourceTree = "<group>"; };
+		33514BE1221EE25600E1185A /* ZJTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarController.m; sourceTree = "<group>"; };
+		33514BE3221EE2A300E1185A /* ZJTabBarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTabBarItem.h; sourceTree = "<group>"; };
+		33514BE4221EE2A300E1185A /* ZJTabBarItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTabBarItem.m; sourceTree = "<group>"; };
+		33514BE6221EE6DD00E1185A /* MainPageController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageController.h; sourceTree = "<group>"; };
+		33514BE7221EE6DD00E1185A /* MainPageController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageController.m; sourceTree = "<group>"; };
+		33514BE9221EE71E00E1185A /* MyNewsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyNewsController.h; sourceTree = "<group>"; };
+		33514BEA221EE71E00E1185A /* MyNewsController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNewsController.m; sourceTree = "<group>"; };
+		33514BEC221EE73E00E1185A /* PersonalCenterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalCenterController.h; sourceTree = "<group>"; };
+		33514BED221EE73E00E1185A /* PersonalCenterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalCenterController.m; sourceTree = "<group>"; };
+		33514BEF221EE77A00E1185A /* ReleaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReleaseController.h; sourceTree = "<group>"; };
+		33514BF0221EE77A00E1185A /* ReleaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReleaseController.m; sourceTree = "<group>"; };
+		33514BF2221EE79A00E1185A /* TakingOrderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakingOrderController.h; sourceTree = "<group>"; };
+		33514BF3221EE79A00E1185A /* TakingOrderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakingOrderController.m; sourceTree = "<group>"; };
+		336596FC221EC38300C249CF /* SleepyFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepyFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		336596FF221EC38300C249CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33659700221EC38300C249CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33659709221EC38300C249CF /* SleepyFish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SleepyFish.xcdatamodel; sourceTree = "<group>"; };
+		3365970B221EC38300C249CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3365970E221EC38300C249CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33659710221EC38300C249CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33659711221EC38300C249CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33659717221EC38300C249CF /* SleepyFishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepyFishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3365971B221EC38300C249CF /* SleepyFishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepyFishTests.m; sourceTree = "<group>"; };
+		3365971D221EC38300C249CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33659722221EC38300C249CF /* SleepyFishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SleepyFishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33659726221EC38300C249CF /* SleepyFishUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SleepyFishUITests.m; sourceTree = "<group>"; };
+		33659728221EC38300C249CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33659765221EC4BD00C249CF /* MainPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
+		33659767221EC4EA00C249CF /* MyNews.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyNews.storyboard; sourceTree = "<group>"; };
+		33659769221EC52200C249CF /* PersonalCenter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PersonalCenter.storyboard; sourceTree = "<group>"; };
+		3365976B221EC54600C249CF /* Release.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Release.storyboard; sourceTree = "<group>"; };
+		3365976D221EC56D00C249CF /* TakingOrder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TakingOrder.storyboard; sourceTree = "<group>"; };
+		33659791221EDD1800C249CF /* MyTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		33659792221EDD1800C249CF /* MyTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		336596F9221EC38200C249CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33659714221EC38300C249CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3365971F221EC38300C249CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33514BCC221EE0DF00E1185A /* ZJTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				33514BDA221EE1B400E1185A /* ZJTabBar.h */,
+				33514BDB221EE1B400E1185A /* ZJTabBar.m */,
+				33514BDD221EE21700E1185A /* ZJTabBarButton.h */,
+				33514BDE221EE21700E1185A /* ZJTabBarButton.m */,
+				33514BE0221EE25600E1185A /* ZJTabBarController.h */,
+				33514BE1221EE25600E1185A /* ZJTabBarController.m */,
+				33514BE3221EE2A300E1185A /* ZJTabBarItem.h */,
+				33514BE4221EE2A300E1185A /* ZJTabBarItem.m */,
+			);
+			path = ZJTabBar;
+			sourceTree = "<group>";
+		};
+		336596F3221EC38200C249CF = {
+			isa = PBXGroup;
+			children = (
+				336596FE221EC38300C249CF /* SleepyFish */,
+				3365971A221EC38300C249CF /* SleepyFishTests */,
+				33659725221EC38300C249CF /* SleepyFishUITests */,
+				336596FD221EC38300C249CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		336596FD221EC38300C249CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				336596FC221EC38300C249CF /* SleepyFish.app */,
+				33659717221EC38300C249CF /* SleepyFishTests.xctest */,
+				33659722221EC38300C249CF /* SleepyFishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		336596FE221EC38300C249CF /* SleepyFish */ = {
+			isa = PBXGroup;
+			children = (
+				3365976F221EDB7D00C249CF /* PublicToolsAndUI(工具类及封装的框架) */,
+				33659734221EC3DC00C249CF /* MainPage(主页) */,
+				3365973B221EC3DC00C249CF /* MyNews(我的消息) */,
+				33659750221EC3DC00C249CF /* PersonalCenter(个人中心) */,
+				33659749221EC3DC00C249CF /* Release(发布) */,
+				33659742221EC3DC00C249CF /* TakingOrder(接单) */,
+				336596FF221EC38300C249CF /* AppDelegate.h */,
+				33659700221EC38300C249CF /* AppDelegate.m */,
+				3365970B221EC38300C249CF /* Assets.xcassets */,
+				3365970D221EC38300C249CF /* LaunchScreen.storyboard */,
+				33659710221EC38300C249CF /* Info.plist */,
+				33659711221EC38300C249CF /* main.m */,
+				33659708221EC38300C249CF /* SleepyFish.xcdatamodeld */,
+			);
+			path = SleepyFish;
+			sourceTree = "<group>";
+		};
+		3365971A221EC38300C249CF /* SleepyFishTests */ = {
+			isa = PBXGroup;
+			children = (
+				3365971B221EC38300C249CF /* SleepyFishTests.m */,
+				3365971D221EC38300C249CF /* Info.plist */,
+			);
+			path = SleepyFishTests;
+			sourceTree = "<group>";
+		};
+		33659725221EC38300C249CF /* SleepyFishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33659726221EC38300C249CF /* SleepyFishUITests.m */,
+				33659728221EC38300C249CF /* Info.plist */,
+			);
+			path = SleepyFishUITests;
+			sourceTree = "<group>";
+		};
+		33659734221EC3DC00C249CF /* MainPage(主页) */ = {
+			isa = PBXGroup;
+			children = (
+				33659735221EC3DC00C249CF /* Controller */,
+				33659738221EC3DC00C249CF /* Model */,
+				33659739221EC3DC00C249CF /* Other */,
+				3365973A221EC3DC00C249CF /* View */,
+			);
+			path = "MainPage(主页)";
+			sourceTree = "<group>";
+		};
+		33659735221EC3DC00C249CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33514BE6221EE6DD00E1185A /* MainPageController.h */,
+				33514BE7221EE6DD00E1185A /* MainPageController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33659738221EC3DC00C249CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33659739221EC3DC00C249CF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3365973A221EC3DC00C249CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33659765221EC4BD00C249CF /* MainPage.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3365973B221EC3DC00C249CF /* MyNews(我的消息) */ = {
+			isa = PBXGroup;
+			children = (
+				3365973C221EC3DC00C249CF /* Controller */,
+				3365973F221EC3DC00C249CF /* Model */,
+				33659740221EC3DC00C249CF /* Other */,
+				33659741221EC3DC00C249CF /* View */,
+			);
+			path = "MyNews(我的消息)";
+			sourceTree = "<group>";
+		};
+		3365973C221EC3DC00C249CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33514BE9221EE71E00E1185A /* MyNewsController.h */,
+				33514BEA221EE71E00E1185A /* MyNewsController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3365973F221EC3DC00C249CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33659740221EC3DC00C249CF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		33659741221EC3DC00C249CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33659767221EC4EA00C249CF /* MyNews.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33659742221EC3DC00C249CF /* TakingOrder(接单) */ = {
+			isa = PBXGroup;
+			children = (
+				33659743221EC3DC00C249CF /* Controller */,
+				33659746221EC3DC00C249CF /* Model */,
+				33659747221EC3DC00C249CF /* Other */,
+				33659748221EC3DC00C249CF /* View */,
+			);
+			path = "TakingOrder(接单)";
+			sourceTree = "<group>";
+		};
+		33659743221EC3DC00C249CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33514BF2221EE79A00E1185A /* TakingOrderController.h */,
+				33514BF3221EE79A00E1185A /* TakingOrderController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33659746221EC3DC00C249CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33659747221EC3DC00C249CF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		33659748221EC3DC00C249CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3365976D221EC56D00C249CF /* TakingOrder.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33659749221EC3DC00C249CF /* Release(发布) */ = {
+			isa = PBXGroup;
+			children = (
+				3365974A221EC3DC00C249CF /* Controller */,
+				3365974D221EC3DC00C249CF /* Model */,
+				3365974E221EC3DC00C249CF /* Other */,
+				3365974F221EC3DC00C249CF /* View */,
+			);
+			path = "Release(发布)";
+			sourceTree = "<group>";
+		};
+		3365974A221EC3DC00C249CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33514BEF221EE77A00E1185A /* ReleaseController.h */,
+				33514BF0221EE77A00E1185A /* ReleaseController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3365974D221EC3DC00C249CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3365974E221EC3DC00C249CF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3365974F221EC3DC00C249CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3365976B221EC54600C249CF /* Release.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33659750221EC3DC00C249CF /* PersonalCenter(个人中心) */ = {
+			isa = PBXGroup;
+			children = (
+				33659751221EC3DC00C249CF /* Controller */,
+				33659754221EC3DC00C249CF /* Model */,
+				33659755221EC3DC00C249CF /* Other */,
+				33659756221EC3DC00C249CF /* View */,
+			);
+			path = "PersonalCenter(个人中心)";
+			sourceTree = "<group>";
+		};
+		33659751221EC3DC00C249CF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				33514BEC221EE73E00E1185A /* PersonalCenterController.h */,
+				33514BED221EE73E00E1185A /* PersonalCenterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		33659754221EC3DC00C249CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33659755221EC3DC00C249CF /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		33659756221EC3DC00C249CF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33659769221EC52200C249CF /* PersonalCenter.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3365976F221EDB7D00C249CF /* PublicToolsAndUI(工具类及封装的框架) */ = {
+			isa = PBXGroup;
+			children = (
+				33514BCC221EE0DF00E1185A /* ZJTabBar */,
+				33514BD7221EE15F00E1185A /* ZJNavigationController.h */,
+				33514BD8221EE15F00E1185A /* ZJNavigationController.m */,
+				33659791221EDD1800C249CF /* MyTabBarController.h */,
+				33659792221EDD1800C249CF /* MyTabBarController.m */,
+			);
+			path = "PublicToolsAndUI(工具类及封装的框架)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336596FB221EC38200C249CF /* SleepyFish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3365972B221EC38300C249CF /* Build configuration list for PBXNativeTarget "SleepyFish" */;
+			buildPhases = (
+				336596F8221EC38200C249CF /* Sources */,
+				336596F9221EC38200C249CF /* Frameworks */,
+				336596FA221EC38200C249CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SleepyFish;
+			productName = SleepyFish;
+			productReference = 336596FC221EC38300C249CF /* SleepyFish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33659716221EC38300C249CF /* SleepyFishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3365972E221EC38300C249CF /* Build configuration list for PBXNativeTarget "SleepyFishTests" */;
+			buildPhases = (
+				33659713221EC38300C249CF /* Sources */,
+				33659714221EC38300C249CF /* Frameworks */,
+				33659715221EC38300C249CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33659719221EC38300C249CF /* PBXTargetDependency */,
+			);
+			name = SleepyFishTests;
+			productName = SleepyFishTests;
+			productReference = 33659717221EC38300C249CF /* SleepyFishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33659721221EC38300C249CF /* SleepyFishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33659731221EC38300C249CF /* Build configuration list for PBXNativeTarget "SleepyFishUITests" */;
+			buildPhases = (
+				3365971E221EC38300C249CF /* Sources */,
+				3365971F221EC38300C249CF /* Frameworks */,
+				33659720221EC38300C249CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33659724221EC38300C249CF /* PBXTargetDependency */,
+			);
+			name = SleepyFishUITests;
+			productName = SleepyFishUITests;
+			productReference = 33659722221EC38300C249CF /* SleepyFishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		336596F4221EC38200C249CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = sj;
+				TargetAttributes = {
+					336596FB221EC38200C249CF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					33659716221EC38300C249CF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 336596FB221EC38200C249CF;
+					};
+					33659721221EC38300C249CF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 336596FB221EC38200C249CF;
+					};
+				};
+			};
+			buildConfigurationList = 336596F7221EC38200C249CF /* Build configuration list for PBXProject "SleepyFish" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 336596F3221EC38200C249CF;
+			productRefGroup = 336596FD221EC38300C249CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				336596FB221EC38200C249CF /* SleepyFish */,
+				33659716221EC38300C249CF /* SleepyFishTests */,
+				33659721221EC38300C249CF /* SleepyFishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		336596FA221EC38200C249CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33659766221EC4BD00C249CF /* MainPage.storyboard in Resources */,
+				33659768221EC4EA00C249CF /* MyNews.storyboard in Resources */,
+				3365970F221EC38300C249CF /* LaunchScreen.storyboard in Resources */,
+				3365976A221EC52200C249CF /* PersonalCenter.storyboard in Resources */,
+				3365970C221EC38300C249CF /* Assets.xcassets in Resources */,
+				3365976C221EC54600C249CF /* Release.storyboard in Resources */,
+				3365976E221EC56D00C249CF /* TakingOrder.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33659715221EC38300C249CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33659720221EC38300C249CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		336596F8221EC38200C249CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33514BE2221EE25600E1185A /* ZJTabBarController.m in Sources */,
+				33514BD9221EE15F00E1185A /* ZJNavigationController.m in Sources */,
+				33514BDC221EE1B400E1185A /* ZJTabBar.m in Sources */,
+				33514BE5221EE2A300E1185A /* ZJTabBarItem.m in Sources */,
+				33514BF1221EE77A00E1185A /* ReleaseController.m in Sources */,
+				33659793221EDD1800C249CF /* MyTabBarController.m in Sources */,
+				33514BE8221EE6DD00E1185A /* MainPageController.m in Sources */,
+				33514BEE221EE73E00E1185A /* PersonalCenterController.m in Sources */,
+				33659701221EC38300C249CF /* AppDelegate.m in Sources */,
+				33514BEB221EE71E00E1185A /* MyNewsController.m in Sources */,
+				33659712221EC38300C249CF /* main.m in Sources */,
+				3365970A221EC38300C249CF /* SleepyFish.xcdatamodeld in Sources */,
+				33514BF4221EE79A00E1185A /* TakingOrderController.m in Sources */,
+				33514BDF221EE21700E1185A /* ZJTabBarButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33659713221EC38300C249CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3365971C221EC38300C249CF /* SleepyFishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3365971E221EC38300C249CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33659727221EC38300C249CF /* SleepyFishUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33659719221EC38300C249CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336596FB221EC38200C249CF /* SleepyFish */;
+			targetProxy = 33659718221EC38300C249CF /* PBXContainerItemProxy */;
+		};
+		33659724221EC38300C249CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 336596FB221EC38200C249CF /* SleepyFish */;
+			targetProxy = 33659723221EC38300C249CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3365970D221EC38300C249CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3365970E221EC38300C249CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33659729221EC38300C249CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3365972A221EC38300C249CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3365972C221EC38300C249CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDE4TZ538Q;
+				INFOPLIST_FILE = SleepyFish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = sj.SleepyFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3365972D221EC38300C249CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDE4TZ538Q;
+				INFOPLIST_FILE = SleepyFish/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = sj.SleepyFish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3365972F221EC38300C249CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDE4TZ538Q;
+				INFOPLIST_FILE = SleepyFishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sj.SleepyFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepyFish.app/SleepyFish";
+			};
+			name = Debug;
+		};
+		33659730221EC38300C249CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDE4TZ538Q;
+				INFOPLIST_FILE = SleepyFishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sj.SleepyFishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SleepyFish.app/SleepyFish";
+			};
+			name = Release;
+		};
+		33659732221EC38300C249CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDE4TZ538Q;
+				INFOPLIST_FILE = SleepyFishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sj.SleepyFishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepyFish;
+			};
+			name = Debug;
+		};
+		33659733221EC38300C249CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CDE4TZ538Q;
+				INFOPLIST_FILE = SleepyFishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sj.SleepyFishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SleepyFish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		336596F7221EC38200C249CF /* Build configuration list for PBXProject "SleepyFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33659729221EC38300C249CF /* Debug */,
+				3365972A221EC38300C249CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3365972B221EC38300C249CF /* Build configuration list for PBXNativeTarget "SleepyFish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365972C221EC38300C249CF /* Debug */,
+				3365972D221EC38300C249CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3365972E221EC38300C249CF /* Build configuration list for PBXNativeTarget "SleepyFishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3365972F221EC38300C249CF /* Debug */,
+				33659730221EC38300C249CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33659731221EC38300C249CF /* Build configuration list for PBXNativeTarget "SleepyFishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33659732221EC38300C249CF /* Debug */,
+				33659733221EC38300C249CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		33659708221EC38300C249CF /* SleepyFish.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				33659709221EC38300C249CF /* SleepyFish.xcdatamodel */,
+			);
+			currentVersion = 33659709221EC38300C249CF /* SleepyFish.xcdatamodel */;
+			path = SleepyFish.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 336596F4221EC38200C249CF /* Project object */;
+}
