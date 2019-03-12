@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  SleepyFish
+//
+//  Created by sj on 2019/3/12.
+//  Copyright © 2019年 sj. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "NetworkTool.h"
+#define kScreenSize [UIScreen mainScreen].bounds
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kRectNavAndStatusHight  self.navigationController.navigationBar.frame.size.height+[[UIApplication sharedApplication] statusBarFrame].size.height
+
+#endif /* PrefixHeader_pch */

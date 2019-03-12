@@ -19,6 +19,8 @@
 
 - (void)viewDidLoad {
     
+   
+    
     self.separateBtnIndex = 2;
     //   self.interceptIndex = 3;
     //是否超出tabBar

@@ -7,8 +7,10 @@
 //
 
 #import "MainPageController.h"
+#import "MainPageTopView.h"
+#import "SJGoodsListController.h"
 
-@interface MainPageController ()
+@interface MainPageController ()<MainPageTopViewDelegate>
 
 @end
 
@@ -17,6 +19,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    MainPageTopView *topView = [[MainPageTopView alloc] init];
+    [topView setFrame:CGRectMake(0, kRectNavAndStatusHight, kScreenWidth, kScreenHeight/5)];
+    [self.view addSubview:topView];
+    topView.delegate = self;
+    
+   
 }
 
 - (void)didReceiveMemoryWarning {
@@ -25,14 +33,10 @@
 }
 
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void)go2GoodList:(UIView *)mainPageView withGoodType:(NSString *)goodType{
+    NSLog(@"%@",goodType);
+    SJGoodsListController *goodList = [[SJGoodsListController alloc] init];
+    [self.navigationController pushViewController:goodList animated:YES];
 }
-*/
 
 @end
