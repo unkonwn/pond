@@ -10,7 +10,7 @@
 #import "MainPageTopView.h"
 #import "SJGoodsListController.h"
 
-@interface MainPageController ()<MainPageTopViewDelegate>
+@interface MainPageController () 
 
 @end
 
@@ -22,7 +22,13 @@
     MainPageTopView *topView = [[MainPageTopView alloc] init];
     [topView setFrame:CGRectMake(0, kRectNavAndStatusHight, kScreenWidth, kScreenHeight/5)];
     [self.view addSubview:topView];
-    topView.delegate = self;
+//    topView.delegate = self;
+    
+    topView.topViewTypeBlock = ^(NSString *typeTile) {
+        NSLog(@"%@",typeTile); //需要传给listCon去请求不同类别的商品
+        SJGoodsListController *goodListCon = [[SJGoodsListController alloc] init];
+        [self.navigationController pushViewController:goodListCon animated:YES];
+    };
     
    
 }
@@ -33,10 +39,6 @@
 }
 
 
--(void)go2GoodList:(UIView *)mainPageView withGoodType:(NSString *)goodType{
-    NSLog(@"%@",goodType);
-    SJGoodsListController *goodList = [[SJGoodsListController alloc] init];
-    [self.navigationController pushViewController:goodList animated:YES];
-}
+
 
 @end

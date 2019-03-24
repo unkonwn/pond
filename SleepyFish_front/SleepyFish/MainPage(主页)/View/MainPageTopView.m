@@ -40,9 +40,13 @@
 }
 
 - (void)iconBtnClick:(UIButton *)sender{
-   if(self.delegate && [self.delegate respondsToSelector:@selector(go2GoodList:withGoodType:)]){
-       [self.delegate go2GoodList:self withGoodType:sender.titleLabel.text];
-   }
+//   if(self.delegate && [self.delegate respondsToSelector:@selector(go2GoodList:withGoodType:)]){
+//       [self.delegate go2GoodList:self withGoodType:sender.titleLabel.text];
+//   }
+    
+    if (self.topViewTypeBlock) {
+        self.topViewTypeBlock(sender.titleLabel.text);
+    }
 }
 
 @end

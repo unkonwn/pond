@@ -74,7 +74,7 @@
                 <outlet property="goodTitle" destination="3HD-fO-Olc" id="WpD-H4-jBZ"/>
                 <outlet property="payPeopleNum" destination="736-r2-o9G" id="Ebc-4z-WK9"/>
             </connections>
-            <point key="canvasLocation" x="19.5" y="-158"/>
+            <point key="canvasLocation" x="26" y="-202"/>
         </view>
     </objects>
 </document>

@@ -7,6 +7,7 @@
 //
 
 #import "SJGoodsListController.h"
+#import "SJGoodCell.h"
 
 
 @interface SJGoodsListController ()
@@ -18,12 +19,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+   
+    
+
+    
 //    [NetworkTool Post:@"https://www.taobao.com" parameters:nil graceTime:NetworkRequestGraceTimeTypeAlways isHTTPRequestSerializer:YES isHTTPResponseSerializer:YES success:^(NSDictionary *response, AFHTTPRequestOperation *operation) {
 //        NSLog(@"成功");
 //    } failure:^(NSError *error, AFHTTPRequestOperation *operation) {
 //        NSLog(@"%@",error);
 //    }];
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -34,23 +41,33 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 50;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return 1;
 }
 
-/*
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+//    NSLog(@"%@",indexPath);
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+   
+    SJGoodCell *cell = [SJGoodCell goodCellWithTableView:tableView];
     return cell;
 }
-*/
+
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    //在设置高度的回调中获取当前indexpath的cell 然后返回给他的frame的高度即可。在创建cell的时候记得最后把cell.frame.size.height 等于你内容的高。
+
+    SJGoodCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+    return cell.cellHeight;
+}
+
+
 
 /*
 // Override to support conditional editing of the table view.

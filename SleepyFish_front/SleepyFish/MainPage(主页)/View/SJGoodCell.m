@@ -30,13 +30,14 @@
     SJGoodCell *goodCell = [tableView dequeueReusableCellWithIdentifier:goodCellId];
     if(goodCell == nil){
         goodCell = [[NSBundle mainBundle] loadNibNamed:GOODCELLNAME owner:nil options:nil][0];
-    
     }
+    goodCell.cellHeight = 150;
     return goodCell;
 }
 
 -(void)setGoodModel:(SJGoodModel *)goodModel{
     //TODO:设置cell的具体属性
+    
 }
 
 

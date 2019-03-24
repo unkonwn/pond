@@ -8,14 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol MainPageTopViewDelegate <NSObject>
-
-- (void)go2GoodList:(UIView *)mainPageView withGoodType:(NSString *)goodType;
-
-@end
+//@protocol MainPageTopViewDelegate <NSObject>
+//
+//- (void)go2GoodList:(UIView *)mainPageView withGoodType:(NSString *)goodType;
+//
+//@end
 
 @interface MainPageTopView : UIView
 
-@property (weak, nonatomic) id<MainPageTopViewDelegate> delegate;
+//@property (weak, nonatomic) id<MainPageTopViewDelegate> delegate;
+@property (nonatomic, strong) void(^topViewTypeBlock)(NSString *typeTile);
 
 @end

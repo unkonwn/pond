@@ -10,4 +10,6 @@
 
 @interface SJGoodModel : NSObject
 
+
+
 @end

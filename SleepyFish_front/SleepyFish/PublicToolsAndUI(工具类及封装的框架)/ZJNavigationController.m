@@ -34,16 +34,16 @@
  *  @param viewController 下一级视图控制器
  *  @param animated       是否带动画
  */
-//-(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
-//    
-//    if (self.viewControllers.count > 0) {
-//        
-//        viewController.hidesBottomBarWhenPushed=YES;
-//        
-//    }
-//    
-//    [super pushViewController:viewController animated:YES];
-//}
+-(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    
+    if (self.viewControllers.count > 0) {
+        
+        viewController.hidesBottomBarWhenPushed=YES;
+        
+    }
+    
+    [super pushViewController:viewController animated:YES];
+}
 /*
 #pragma mark - Navigation
 
