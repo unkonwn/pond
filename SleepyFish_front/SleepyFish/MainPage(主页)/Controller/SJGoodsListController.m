@@ -8,7 +8,7 @@
 
 #import "SJGoodsListController.h"
 #import "SJGoodCell.h"
-
+#import "SJGoodDetailViewCon.h"
 
 @interface SJGoodsListController ()
 
@@ -28,6 +28,7 @@
 //    } failure:^(NSError *error, AFHTTPRequestOperation *operation) {
 //        NSLog(@"%@",error);
 //    }];
+
 }
 
 
@@ -49,8 +50,11 @@
     return 1;
 }
 
+#pragma 选择每个商品时调到商品详情页
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-//    NSLog(@"%@",indexPath);
+    SJGoodDetailViewCon *detailCon = [[SJGoodDetailViewCon alloc] init];
+    //todo 传递商品的ID
+    [self.navigationController pushViewController:detailCon animated:YES];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -63,9 +67,11 @@
 
     //在设置高度的回调中获取当前indexpath的cell 然后返回给他的frame的高度即可。在创建cell的时候记得最后把cell.frame.size.height 等于你内容的高。
 
-    SJGoodCell *cell = [self tableView:tableView cellForRowAtIndexPath:indexPath];
+    SJGoodCell *cell = (SJGoodCell *)[self tableView:tableView cellForRowAtIndexPath:indexPath];
     return cell.cellHeight;
 }
+
+
 
 
 
