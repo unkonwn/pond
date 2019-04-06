@@ -25,6 +25,7 @@
     // Initialization code
 }
 
+
 +(instancetype)goodCellWithTableView:(UITableView *)tableView{
     static NSString *goodCellId = @"good";
     SJGoodCell *goodCell = [tableView dequeueReusableCellWithIdentifier:goodCellId];

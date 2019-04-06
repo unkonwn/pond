@@ -51,6 +51,7 @@
 }
 
 #pragma 选择每个商品时调到商品详情页
+
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     SJGoodDetailViewCon *detailCon = [[SJGoodDetailViewCon alloc] init];
     //todo 传递商品的ID

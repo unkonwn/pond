@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		330073862250E0F600A212D4 /* SJGoodDetailViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = 330073852250E0F600A212D4 /* SJGoodDetailViewCon.m */; };
+		3313327E2258C44B0008FCC0 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 3313327D2258C1A00008FCC0 /* UIBarButtonItem+Item.m */; };
+		3313327F2258C44B0008FCC0 /* NSDictionary+property.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AAA0A1225899D700E08ABB /* NSDictionary+property.m */; };
+		331332802258C44B0008FCC0 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AAA09F225899D600E08ABB /* NSObject+Model.m */; };
+		331332812258C44B0008FCC0 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 33AAA09E2258998700E08ABB /* UIColor+Hex.m */; };
+		331332822258D20B0008FCC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3372363822530FA000820077 /* Assets.xcassets */; };
 		3326D6D022374C6300315E13 /* MainPageTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326D6CF22374C6300315E13 /* MainPageTopView.m */; };
 		3326D6D72237BAC400315E13 /* UIView+SJGetNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326D6D62237BAC400315E13 /* UIView+SJGetNav.m */; };
 		3326D6DA2237BB6600315E13 /* SJGoodsListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326D6D92237BB6600315E13 /* SJGoodsListController.m */; };
@@ -26,7 +31,6 @@
 		33514BF4221EE79A00E1185A /* TakingOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BF3221EE79A00E1185A /* TakingOrderController.m */; };
 		33659701221EC38300C249CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33659700221EC38300C249CF /* AppDelegate.m */; };
 		3365970A221EC38300C249CF /* SleepyFish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33659708221EC38300C249CF /* SleepyFish.xcdatamodeld */; };
-		3365970C221EC38300C249CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3365970B221EC38300C249CF /* Assets.xcassets */; };
 		3365970F221EC38300C249CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3365970D221EC38300C249CF /* LaunchScreen.storyboard */; };
 		33659712221EC38300C249CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33659711221EC38300C249CF /* main.m */; };
 		3365971C221EC38300C249CF /* SleepyFishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3365971B221EC38300C249CF /* SleepyFishTests.m */; };
@@ -69,6 +73,8 @@
 		15E8744BFEEBE65CAA85FE7E /* Pods-SleepyFish.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleepyFish.debug.xcconfig"; path = "Target Support Files/Pods-SleepyFish/Pods-SleepyFish.debug.xcconfig"; sourceTree = "<group>"; };
 		330073842250E0F600A212D4 /* SJGoodDetailViewCon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJGoodDetailViewCon.h; sourceTree = "<group>"; };
 		330073852250E0F600A212D4 /* SJGoodDetailViewCon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJGoodDetailViewCon.m; sourceTree = "<group>"; };
+		3313327C2258C1A00008FCC0 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		3313327D2258C1A00008FCC0 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 		3326D6CE22374C6300315E13 /* MainPageTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPageTopView.h; sourceTree = "<group>"; };
 		3326D6CF22374C6300315E13 /* MainPageTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPageTopView.m; sourceTree = "<group>"; };
 		3326D6D12237A74500315E13 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -105,7 +111,6 @@
 		336596FF221EC38300C249CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33659700221EC38300C249CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		33659709221EC38300C249CF /* SleepyFish.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SleepyFish.xcdatamodel; sourceTree = "<group>"; };
-		3365970B221EC38300C249CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3365970E221EC38300C249CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33659710221EC38300C249CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33659711221EC38300C249CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -122,6 +127,7 @@
 		3365976D221EC56D00C249CF /* TakingOrder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TakingOrder.storyboard; sourceTree = "<group>"; };
 		33659791221EDD1800C249CF /* MyTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
 		33659792221EDD1800C249CF /* MyTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		3372363822530FA000820077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SleepyFish/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		338C7C362237DD9700976C13 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		338C7C372237DD9700976C13 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		338C7C382237DD9700976C13 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -163,6 +169,12 @@
 		338C7C5D2237DD9700976C13 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		338C7C5E2237DD9700976C13 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		338C7C5F2237DD9700976C13 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		33AAA09D2258998700E08ABB /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		33AAA09E2258998700E08ABB /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		33AAA09F225899D600E08ABB /* NSObject+Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		33AAA0A0225899D600E08ABB /* NSDictionary+property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+property.h"; sourceTree = "<group>"; };
+		33AAA0A1225899D700E08ABB /* NSDictionary+property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+property.m"; sourceTree = "<group>"; };
+		33AAA0A2225899D700E08ABB /* NSObject+Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
 		CA59F45349CA83D68F1602EE /* Pods-SleepyFish.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SleepyFish.release.xcconfig"; path = "Target Support Files/Pods-SleepyFish/Pods-SleepyFish.release.xcconfig"; sourceTree = "<group>"; };
 		E721E72558BF4FB9029BA465 /* libPods-SleepyFish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SleepyFish.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -241,9 +253,9 @@
 				33659742221EC3DC00C249CF /* TakingOrder(接单) */,
 				336596FF221EC38300C249CF /* AppDelegate.h */,
 				33659700221EC38300C249CF /* AppDelegate.m */,
-				3365970B221EC38300C249CF /* Assets.xcassets */,
 				3365970D221EC38300C249CF /* LaunchScreen.storyboard */,
 				33659710221EC38300C249CF /* Info.plist */,
+				3372363822530FA000820077 /* Assets.xcassets */,
 				33659711221EC38300C249CF /* main.m */,
 				33659708221EC38300C249CF /* SleepyFish.xcdatamodeld */,
 			);
@@ -492,6 +504,7 @@
 		3365976F221EDB7D00C249CF /* PublicToolsAndUI(工具类及封装的框架) */ = {
 			isa = PBXGroup;
 			children = (
+				33AAA09C2258992F00E08ABB /* Category */,
 				338C7C342237DD9700976C13 /* NetWorkTool */,
 				33514BCC221EE0DF00E1185A /* ZJTabBar */,
 				33514BD7221EE15F00E1185A /* ZJNavigationController.h */,
@@ -567,6 +580,21 @@
 				338C7C5F2237DD9700976C13 /* UIWebView+AFNetworking.m */,
 			);
 			path = "UIKit+AFNetworking";
+			sourceTree = "<group>";
+		};
+		33AAA09C2258992F00E08ABB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3313327C2258C1A00008FCC0 /* UIBarButtonItem+Item.h */,
+				3313327D2258C1A00008FCC0 /* UIBarButtonItem+Item.m */,
+				33AAA0A0225899D600E08ABB /* NSDictionary+property.h */,
+				33AAA0A1225899D700E08ABB /* NSDictionary+property.m */,
+				33AAA0A2225899D700E08ABB /* NSObject+Model.h */,
+				33AAA09F225899D600E08ABB /* NSObject+Model.m */,
+				33AAA09D2258998700E08ABB /* UIColor+Hex.h */,
+				33AAA09E2258998700E08ABB /* UIColor+Hex.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		3516A672FFB5D92655DC515E /* Pods */ = {
@@ -694,11 +722,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331332822258D20B0008FCC0 /* Assets.xcassets in Resources */,
 				33659766221EC4BD00C249CF /* MainPage.storyboard in Resources */,
 				33659768221EC4EA00C249CF /* MyNews.storyboard in Resources */,
 				3365970F221EC38300C249CF /* LaunchScreen.storyboard in Resources */,
 				3365976A221EC52200C249CF /* PersonalCenter.storyboard in Resources */,
-				3365970C221EC38300C249CF /* Assets.xcassets in Resources */,
 				3326D6DF2237C9E300315E13 /* SJGoodCell.xib in Resources */,
 				3365976C221EC54600C249CF /* Release.storyboard in Resources */,
 				3365976E221EC56D00C249CF /* TakingOrder.storyboard in Resources */,
@@ -747,6 +775,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3313327E2258C44B0008FCC0 /* UIBarButtonItem+Item.m in Sources */,
+				3313327F2258C44B0008FCC0 /* NSDictionary+property.m in Sources */,
+				331332802258C44B0008FCC0 /* NSObject+Model.m in Sources */,
+				331332812258C44B0008FCC0 /* UIColor+Hex.m in Sources */,
 				338C7C662237DDFE00976C13 /* AFURLConnectionOperation.h in Sources */,
 				338C7C672237DDFE00976C13 /* AFURLConnectionOperation.m in Sources */,
 				338C7C642237DDDE00976C13 /* AFHTTPRequestOperation.h in Sources */,
@@ -934,7 +966,7 @@
 				DEVELOPMENT_TEAM = CDE4TZ538Q;
 				GCC_PREFIX_HEADER = "SleepyFish/PublicToolsAndUI(工具类及封装的框架)/PrefixHeader.pch";
 				INFOPLIST_FILE = SleepyFish/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = sj.SleepyFish;
@@ -952,7 +984,7 @@
 				DEVELOPMENT_TEAM = CDE4TZ538Q;
 				GCC_PREFIX_HEADER = "SleepyFish/PublicToolsAndUI(工具类及封装的框架)/PrefixHeader.pch";
 				INFOPLIST_FILE = SleepyFish/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = sj.SleepyFish;

@@ -16,12 +16,17 @@
 
 @implementation MainPageController
 
+
+/**
+ 控制器生命周期
+ */
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     MainPageTopView *topView = [[MainPageTopView alloc] init];
     [topView setFrame:CGRectMake(0, kRectNavAndStatusHight, kScreenWidth, kScreenHeight/5)];
     [self.view addSubview:topView];
+    
 //    topView.delegate = self;
     
     topView.topViewTypeBlock = ^(NSString *typeTile) {

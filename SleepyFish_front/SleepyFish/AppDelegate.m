@@ -20,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    NSLog(@"%@",NSStringFromCGRect(kScreenSize));
+    
     self.window                             = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor             = [UIColor clearColor];
     
