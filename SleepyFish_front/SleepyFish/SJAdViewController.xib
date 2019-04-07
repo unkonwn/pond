@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SJAdViewController">
+            <connections>
+                <outlet property="adImgView" destination="abF-rg-312" id="Q75-7J-O71"/>
+                <outlet property="btnRemind" destination="KUP-kF-YAJ" id="EYJ-wH-tz9"/>
+                <outlet property="view" destination="iN0-l3-epB" id="sXG-3j-Yeg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="abF-rg-312">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUP-kF-YAJ">
+                    <rect key="frame" x="275" y="50" width="70" height="35"/>
+                    <color key="backgroundColor" red="0.11395736911515879" green="0.11508565989847719" blue="0.11508565989847719" alpha="0.36938142123287671" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="1nZ-IM-3iR"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="i8Q-nq-CYC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="剩余(3s)">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="KUP-kF-YAJ" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="LCq-fx-TB3"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="KUP-kF-YAJ" secondAttribute="trailing" constant="30" id="Nsm-KM-Ekk"/>
+                <constraint firstItem="abF-rg-312" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="bQO-Su-uMN"/>
+                <constraint firstItem="abF-rg-312" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="js7-Gy-MxW"/>
+                <constraint firstItem="abF-rg-312" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="n6r-wp-N24"/>
+                <constraint firstItem="abF-rg-312" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="zbf-Xx-P9C"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-12" y="-363"/>
+        </view>
+        <viewController id="Zn4-97-HnX">
+            <view key="view" contentMode="scaleToFill" id="ydl-DH-D22">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <viewLayoutGuide key="safeArea" id="nU1-AM-cr8"/>
+            </view>
+            <point key="canvasLocation" x="218" y="-366"/>
+        </viewController>
+    </objects>
+</document>

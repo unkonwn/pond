@@ -7,28 +7,28 @@
 //
 
 #import "AppDelegate.h"
-#import "MyTabBarController.h"
+//#import "MyTabBarController.h"
+#import "SJAdViewController.h"
 
 @interface AppDelegate ()
 
-@property(nonatomic,strong)MyTabBarController * zjTabBarController;
+//@property(nonatomic,strong)MyTabBarController * zjTabBarController;
 
 @end
 
 @implementation AppDelegate
 
-
+//添加广告界面，将广告控制器作为根控制器
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    NSLog(@"%@",NSStringFromCGRect(kScreenSize));
-    
+    NSLog(@"%f",kScreenHeight);
     self.window                             = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor             = [UIColor clearColor];
     
-    self.zjTabBarController = [MyTabBarController shareTabar];
-    
-    self.window.rootViewController          = self.zjTabBarController;
+//    self.zjTabBarController = [MyTabBarController shareTabar];
+    SJAdViewController *adCon = [[SJAdViewController alloc] init];
+    self.window.rootViewController          = adCon;
     [self.window makeKeyAndVisible];
     
     return YES;

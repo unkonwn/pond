@@ -8,6 +8,7 @@
 
 #import "PersonalCenterController.h"
 #import "UIBarButtonItem+Item.h"
+#import "SJSettingController.h"
 
 @interface PersonalCenterController ()
 
@@ -17,7 +18,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithimage:[UIImage imageNamed:@"mine-setting-icon"] highImage:[UIImage imageNamed:@"mine-setting-icon-click"] target:nil action:nil];
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem itemWithimage:[UIImage imageNamed:@"mine-setting-icon"] highImage:[UIImage imageNamed:@"mine-setting-icon-click"] target:self action:@selector(go2Setting)];
+}
+
+- (void)go2Setting{
+    SJSettingController *settingCon = [[SJSettingController alloc] init];
+    [self.navigationController pushViewController:settingCon animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

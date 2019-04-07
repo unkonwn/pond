@@ -30,9 +30,14 @@
      事实上对于一个视图控制器而言，该属性的默认值即为YES，因此不设置也能实现右滑pop的功能。然而这个功能很有局限性，因为它不允许当前视图控制器自定义了leftBarButtonItem，一旦自定义，右滑功能就会失效
      */
     //只有非根控制器才有滑动返回功能
-    self.interactivePopGestureRecognizer.delegate = self;
+
     self.navigationBar.backgroundColor = [UIColor blueColor];
-//    NSLog(@"%@",self.childViewControllers);
+    //全屏滑动，自定义实现手势，调用系统的方法
+    UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self.interactivePopGestureRecognizer.delegate action:@selector(handleNavigationTransition:)];
+    [self.view addGestureRecognizer:pan];
+    pan.delegate = self;
+    self.interactivePopGestureRecognizer.enabled = NO;
+
     
 }
 

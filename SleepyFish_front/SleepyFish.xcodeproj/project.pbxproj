@@ -29,6 +29,15 @@
 		33514BEE221EE73E00E1185A /* PersonalCenterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BED221EE73E00E1185A /* PersonalCenterController.m */; };
 		33514BF1221EE77A00E1185A /* ReleaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BF0221EE77A00E1185A /* ReleaseController.m */; };
 		33514BF4221EE79A00E1185A /* TakingOrderController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BF3221EE79A00E1185A /* TakingOrderController.m */; };
+		335FE4862259F7EF004D4E4B /* SJAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 335FE4852259F7EF004D4E4B /* SJAdViewController.m */; };
+		335FE4882259F8CB004D4E4B /* SJAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 335FE4872259F8CB004D4E4B /* SJAdViewController.xib */; };
+		335FE491225A0D77004D4E4B /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 335FE48A225A0D6A004D4E4B /* LaunchImage-568h@2x.png */; };
+		335FE492225A0D77004D4E4B /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 335FE48B225A0D6A004D4E4B /* LaunchImage-700-568h@2x.png */; };
+		335FE493225A0D77004D4E4B /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 335FE48C225A0D6A004D4E4B /* LaunchImage-700@2x.png */; };
+		335FE494225A0D77004D4E4B /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 335FE48D225A0D6A004D4E4B /* LaunchImage-800-667h@2x.png */; };
+		335FE495225A0D77004D4E4B /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 335FE48E225A0D6A004D4E4B /* LaunchImage-800-Portrait-736h@3x.png */; };
+		335FE496225A0D77004D4E4B /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 335FE48F225A0D6A004D4E4B /* LaunchImage.png */; };
+		335FE497225A0D77004D4E4B /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 335FE490225A0D6A004D4E4B /* LaunchImage@2x.png */; };
 		33659701221EC38300C249CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33659700221EC38300C249CF /* AppDelegate.m */; };
 		3365970A221EC38300C249CF /* SleepyFish.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 33659708221EC38300C249CF /* SleepyFish.xcdatamodeld */; };
 		3365970F221EC38300C249CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3365970D221EC38300C249CF /* LaunchScreen.storyboard */; };
@@ -41,6 +50,7 @@
 		3365976C221EC54600C249CF /* Release.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3365976B221EC54600C249CF /* Release.storyboard */; };
 		3365976E221EC56D00C249CF /* TakingOrder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3365976D221EC56D00C249CF /* TakingOrder.storyboard */; };
 		33659793221EDD1800C249CF /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33659792221EDD1800C249CF /* MyTabBarController.m */; };
+		3376AF122259F08F006A34D2 /* SJSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3376AF112259F08F006A34D2 /* SJSettingController.m */; };
 		338C7C602237DDAA00976C13 /* NetworkTool.h in Sources */ = {isa = PBXBuildFile; fileRef = 338C7C4B2237DD9700976C13 /* NetworkTool.h */; };
 		338C7C612237DDAB00976C13 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 338C7C4C2237DD9700976C13 /* NetworkTool.m */; };
 		338C7C622237DDC600976C13 /* AFHTTPRequestOperationManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 338C7C382237DD9700976C13 /* AFHTTPRequestOperationManager.h */; };
@@ -107,6 +117,16 @@
 		33514BF0221EE77A00E1185A /* ReleaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReleaseController.m; sourceTree = "<group>"; };
 		33514BF2221EE79A00E1185A /* TakingOrderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TakingOrderController.h; sourceTree = "<group>"; };
 		33514BF3221EE79A00E1185A /* TakingOrderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakingOrderController.m; sourceTree = "<group>"; };
+		335FE4842259F7EF004D4E4B /* SJAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJAdViewController.h; sourceTree = "<group>"; };
+		335FE4852259F7EF004D4E4B /* SJAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJAdViewController.m; sourceTree = "<group>"; };
+		335FE4872259F8CB004D4E4B /* SJAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SJAdViewController.xib; sourceTree = "<group>"; };
+		335FE48A225A0D6A004D4E4B /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		335FE48B225A0D6A004D4E4B /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		335FE48C225A0D6A004D4E4B /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		335FE48D225A0D6A004D4E4B /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		335FE48E225A0D6A004D4E4B /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		335FE48F225A0D6A004D4E4B /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		335FE490225A0D6A004D4E4B /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		336596FC221EC38300C249CF /* SleepyFish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SleepyFish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336596FF221EC38300C249CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33659700221EC38300C249CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,6 +148,8 @@
 		33659791221EDD1800C249CF /* MyTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
 		33659792221EDD1800C249CF /* MyTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
 		3372363822530FA000820077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = SleepyFish/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		3376AF102259F08F006A34D2 /* SJSettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJSettingController.h; sourceTree = "<group>"; };
+		3376AF112259F08F006A34D2 /* SJSettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJSettingController.m; sourceTree = "<group>"; };
 		338C7C362237DD9700976C13 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		338C7C372237DD9700976C13 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		338C7C382237DD9700976C13 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -220,6 +242,20 @@
 			path = ZJTabBar;
 			sourceTree = "<group>";
 		};
+		335FE489225A0D6A004D4E4B /* 启动图片 */ = {
+			isa = PBXGroup;
+			children = (
+				335FE48A225A0D6A004D4E4B /* LaunchImage-568h@2x.png */,
+				335FE48B225A0D6A004D4E4B /* LaunchImage-700-568h@2x.png */,
+				335FE48C225A0D6A004D4E4B /* LaunchImage-700@2x.png */,
+				335FE48D225A0D6A004D4E4B /* LaunchImage-800-667h@2x.png */,
+				335FE48E225A0D6A004D4E4B /* LaunchImage-800-Portrait-736h@3x.png */,
+				335FE48F225A0D6A004D4E4B /* LaunchImage.png */,
+				335FE490225A0D6A004D4E4B /* LaunchImage@2x.png */,
+			);
+			path = "启动图片";
+			sourceTree = "<group>";
+		};
 		336596F3221EC38200C249CF = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +281,7 @@
 		336596FE221EC38300C249CF /* SleepyFish */ = {
 			isa = PBXGroup;
 			children = (
+				335FE489225A0D6A004D4E4B /* 启动图片 */,
 				3365976F221EDB7D00C249CF /* PublicToolsAndUI(工具类及封装的框架) */,
 				33659734221EC3DC00C249CF /* MainPage(主页) */,
 				3365973B221EC3DC00C249CF /* MyNews(我的消息) */,
@@ -253,11 +290,14 @@
 				33659742221EC3DC00C249CF /* TakingOrder(接单) */,
 				336596FF221EC38300C249CF /* AppDelegate.h */,
 				33659700221EC38300C249CF /* AppDelegate.m */,
+				335FE4842259F7EF004D4E4B /* SJAdViewController.h */,
+				335FE4852259F7EF004D4E4B /* SJAdViewController.m */,
 				3365970D221EC38300C249CF /* LaunchScreen.storyboard */,
 				33659710221EC38300C249CF /* Info.plist */,
 				3372363822530FA000820077 /* Assets.xcassets */,
 				33659711221EC38300C249CF /* main.m */,
 				33659708221EC38300C249CF /* SleepyFish.xcdatamodeld */,
+				335FE4872259F8CB004D4E4B /* SJAdViewController.xib */,
 			);
 			path = SleepyFish;
 			sourceTree = "<group>";
@@ -475,6 +515,8 @@
 			children = (
 				33514BEC221EE73E00E1185A /* PersonalCenterController.h */,
 				33514BED221EE73E00E1185A /* PersonalCenterController.m */,
+				3376AF102259F08F006A34D2 /* SJSettingController.h */,
+				3376AF112259F08F006A34D2 /* SJSettingController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -722,11 +764,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				335FE491225A0D77004D4E4B /* LaunchImage-568h@2x.png in Resources */,
+				335FE492225A0D77004D4E4B /* LaunchImage-700-568h@2x.png in Resources */,
+				335FE493225A0D77004D4E4B /* LaunchImage-700@2x.png in Resources */,
+				335FE494225A0D77004D4E4B /* LaunchImage-800-667h@2x.png in Resources */,
+				335FE495225A0D77004D4E4B /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				335FE496225A0D77004D4E4B /* LaunchImage.png in Resources */,
+				335FE497225A0D77004D4E4B /* LaunchImage@2x.png in Resources */,
 				331332822258D20B0008FCC0 /* Assets.xcassets in Resources */,
 				33659766221EC4BD00C249CF /* MainPage.storyboard in Resources */,
 				33659768221EC4EA00C249CF /* MyNews.storyboard in Resources */,
 				3365970F221EC38300C249CF /* LaunchScreen.storyboard in Resources */,
 				3365976A221EC52200C249CF /* PersonalCenter.storyboard in Resources */,
+				335FE4882259F8CB004D4E4B /* SJAdViewController.xib in Resources */,
 				3326D6DF2237C9E300315E13 /* SJGoodCell.xib in Resources */,
 				3365976C221EC54600C249CF /* Release.storyboard in Resources */,
 				3365976E221EC56D00C249CF /* TakingOrder.storyboard in Resources */,
@@ -789,6 +839,7 @@
 				338C7C612237DDAB00976C13 /* NetworkTool.m in Sources */,
 				3326D6D72237BAC400315E13 /* UIView+SJGetNav.m in Sources */,
 				33514BE2221EE25600E1185A /* ZJTabBarController.m in Sources */,
+				335FE4862259F7EF004D4E4B /* SJAdViewController.m in Sources */,
 				33514BD9221EE15F00E1185A /* ZJNavigationController.m in Sources */,
 				33514BDC221EE1B400E1185A /* ZJTabBar.m in Sources */,
 				33514BE5221EE2A300E1185A /* ZJTabBarItem.m in Sources */,
@@ -804,6 +855,7 @@
 				33659712221EC38300C249CF /* main.m in Sources */,
 				3365970A221EC38300C249CF /* SleepyFish.xcdatamodeld in Sources */,
 				33514BF4221EE79A00E1185A /* TakingOrderController.m in Sources */,
+				3376AF122259F08F006A34D2 /* SJSettingController.m in Sources */,
 				33514BDF221EE21700E1185A /* ZJTabBarButton.m in Sources */,
 				3326D6DD2237C88800315E13 /* SJGoodCell.m in Sources */,
 				3326D6E22237CD3500315E13 /* SJGoodModel.m in Sources */,
