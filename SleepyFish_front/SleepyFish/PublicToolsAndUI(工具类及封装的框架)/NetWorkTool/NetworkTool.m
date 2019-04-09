@@ -23,9 +23,9 @@
 + (AFHTTPRequestOperation *)Get:(NSString *)urlStr
                      parameters:(NSDictionary *)parameters
                         success:(successBlock)success
-                        failure:(failureBlock)failure{
+                        failure:(failureBlock)failure isHUD:(BOOL)isHUD{
     
-    return [self Get:urlStr parameters:parameters  graceTime:NetworkRequestGraceTimeTypeNormal isHTTPRequestSerializer:YES isHTTPResponseSerializer:NO success:success failure:failure];
+    return [self Get:urlStr parameters:parameters  graceTime:NetworkRequestGraceTimeTypeNormal isHTTPRequestSerializer:YES isHTTPResponseSerializer:NO success:success failure:failure isHUD:isHUD];
 }
 
 
@@ -35,22 +35,31 @@
         isHTTPRequestSerializer:(BOOL)isHTTPRequestSerializer
        isHTTPResponseSerializer:(BOOL)isHTTPResponseSerializer
                         success:(successBlock)success
-                        failure:(failureBlock)failure{
+                        failure:(failureBlock)failure
+                        isHUD:(BOOL)isHUD{
     
     AFHTTPRequestOperationManager *manager = [self manager:isHTTPRequestSerializer isHTTPResponseSerializer:isHTTPResponseSerializer];
-    MBProgressHUD *hud = [self hud:graceTime];
+    MBProgressHUD *hud = nil;
+    if (isHUD) {
+        hud = [self hud:graceTime];
+    }
+    
     
     return [manager GET:urlStr parameters:parameters success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
-        hud.taskInProgress = NO;
-        [hud hide:YES];
-        
+        if (hud) {
+            hud.taskInProgress = NO;
+            [hud hide:YES];
+        }
+       
         if (success) {
             success(responseObject,operation);
         }
     } failure:^(AFHTTPRequestOperation * _Nullable operation, NSError * _Nonnull error) {
-        hud.taskInProgress = NO;
-        [hud hide:YES];
-        
+        if (hud) {
+            hud.taskInProgress = NO;
+            [hud hide:YES];
+        }
+      
         if (failure) {
             failure(error,operation);
         }

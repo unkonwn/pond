@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
 
+
 // 网络提示框的出现时机，若干秒后网络数据还未返回则出现提示框
 typedef NS_ENUM(NSUInteger, NetworkRequestGraceTimeType){
     NetworkRequestGraceTimeTypeNormal,  // 0.5s
@@ -39,7 +40,8 @@ typedef void(^failureBlock)(NSError *error,AFHTTPRequestOperation * operation);
 + (AFHTTPRequestOperation *)Get:(NSString *)urlStr
                      parameters:(NSDictionary *)parameters
                         success:(successBlock)success
-                        failure:(failureBlock)failure;
+                        failure:(failureBlock)failure
+                          isHUD:(BOOL)isHUD;
 
 /**
  *  GET请求目标方法
@@ -60,7 +62,8 @@ typedef void(^failureBlock)(NSError *error,AFHTTPRequestOperation * operation);
         isHTTPRequestSerializer:(BOOL)isHTTPRequestSerializer
        isHTTPResponseSerializer:(BOOL)isHTTPResponseSerializer
                         success:(successBlock)success
-                        failure:(failureBlock)failure;
+                        failure:(failureBlock)failure
+                          isHUD:(BOOL)isHUD;
 
 
 /**

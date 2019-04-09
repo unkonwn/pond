@@ -19,6 +19,7 @@
 		3326D6DD2237C88800315E13 /* SJGoodCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326D6DC2237C88800315E13 /* SJGoodCell.m */; };
 		3326D6DF2237C9E300315E13 /* SJGoodCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3326D6DE2237C9E300315E13 /* SJGoodCell.xib */; };
 		3326D6E22237CD3500315E13 /* SJGoodModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3326D6E12237CD3500315E13 /* SJGoodModel.m */; };
+		33365691225B879B0093CCA7 /* SJGlobeConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 33365690225B879B0093CCA7 /* SJGlobeConst.m */; };
 		33514BD9221EE15F00E1185A /* ZJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BD8221EE15F00E1185A /* ZJNavigationController.m */; };
 		33514BDC221EE1B400E1185A /* ZJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BDB221EE1B400E1185A /* ZJTabBar.m */; };
 		33514BDF221EE21700E1185A /* ZJTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 33514BDE221EE21700E1185A /* ZJTabBarButton.m */; };
@@ -97,6 +98,8 @@
 		3326D6DE2237C9E300315E13 /* SJGoodCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SJGoodCell.xib; sourceTree = "<group>"; };
 		3326D6E02237CD3500315E13 /* SJGoodModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJGoodModel.h; sourceTree = "<group>"; };
 		3326D6E12237CD3500315E13 /* SJGoodModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJGoodModel.m; sourceTree = "<group>"; };
+		3336568F225B879B0093CCA7 /* SJGlobeConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SJGlobeConst.h; sourceTree = "<group>"; };
+		33365690225B879B0093CCA7 /* SJGlobeConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SJGlobeConst.m; sourceTree = "<group>"; };
 		33514BD7221EE15F00E1185A /* ZJNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJNavigationController.h; sourceTree = "<group>"; };
 		33514BD8221EE15F00E1185A /* ZJNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJNavigationController.m; sourceTree = "<group>"; };
 		33514BDA221EE1B400E1185A /* ZJTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTabBar.h; sourceTree = "<group>"; };
@@ -556,6 +559,8 @@
 				3326D6D12237A74500315E13 /* PrefixHeader.pch */,
 				3326D6D52237BAC400315E13 /* UIView+SJGetNav.h */,
 				3326D6D62237BAC400315E13 /* UIView+SJGetNav.m */,
+				3336568F225B879B0093CCA7 /* SJGlobeConst.h */,
+				33365690225B879B0093CCA7 /* SJGlobeConst.m */,
 			);
 			path = "PublicToolsAndUI(工具类及封装的框架)";
 			sourceTree = "<group>";
@@ -855,6 +860,7 @@
 				33659712221EC38300C249CF /* main.m in Sources */,
 				3365970A221EC38300C249CF /* SleepyFish.xcdatamodeld in Sources */,
 				33514BF4221EE79A00E1185A /* TakingOrderController.m in Sources */,
+				33365691225B879B0093CCA7 /* SJGlobeConst.m in Sources */,
 				3376AF122259F08F006A34D2 /* SJSettingController.m in Sources */,
 				33514BDF221EE21700E1185A /* ZJTabBarButton.m in Sources */,
 				3326D6DD2237C88800315E13 /* SJGoodCell.m in Sources */,
