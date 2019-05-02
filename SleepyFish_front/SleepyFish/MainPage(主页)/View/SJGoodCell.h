@@ -12,8 +12,6 @@
 @interface SJGoodCell : UITableViewCell
 
 @property (nonatomic, strong) SJGoodModel *goodModel;
-@property (nonatomic,assign) CGFloat cellHeight;
 
-+(instancetype)goodCellWithTableView:(UITableView *)tableView;
 
 @end

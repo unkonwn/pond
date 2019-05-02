@@ -2,4 +2,6 @@ platform:ios, '8.0'
 target "SleepyFish" do
 pod 'AFNetworking'
 pod 'MBProgressHUD'
+pod 'MJExtension'
+pod 'SDWebImage'
 end

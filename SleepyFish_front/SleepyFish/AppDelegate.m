@@ -7,12 +7,12 @@
 //
 
 #import "AppDelegate.h"
-//#import "MyTabBarController.h"
+#import "MyTabBarController.h"
 #import "SJAdViewController.h"
 
 @interface AppDelegate ()
 
-//@property(nonatomic,strong)MyTabBarController * zjTabBarController;
+@property(nonatomic,strong)MyTabBarController * zjTabBarController;
 
 @end
 
@@ -26,9 +26,10 @@
     self.window                             = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor             = [UIColor clearColor];
     
-//    self.zjTabBarController = [MyTabBarController shareTabar];
-    SJAdViewController *adCon = [[SJAdViewController alloc] init];
-    self.window.rootViewController          = adCon;
+    self.zjTabBarController = [MyTabBarController shareTabar];
+//    SJAdViewController *adCon = [[SJAdViewController alloc] init];
+//    self.window.rootViewController          = adCon;
+    self.window.rootViewController = self.zjTabBarController;
     [self.window makeKeyAndVisible];
     
     return YES;

@@ -10,6 +10,8 @@
 #import "SJGoodCell.h"
 #import "SJGoodDetailViewCon.h"
 
+static NSString * const goodCellId = @"good";
+
 @interface SJGoodsListController ()
 
 @end
@@ -19,16 +21,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-   
-    
-
-    
 //    [NetworkTool Post:@"https://www.taobao.com" parameters:nil graceTime:NetworkRequestGraceTimeTypeAlways isHTTPRequestSerializer:YES isHTTPResponseSerializer:YES success:^(NSDictionary *response, AFHTTPRequestOperation *operation) {
 //        NSLog(@"成功");
 //    } failure:^(NSError *error, AFHTTPRequestOperation *operation) {
 //        NSLog(@"%@",error);
 //    }];
-
+    
+    //注册cell
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([SJGoodCell class]) bundle:nil] forCellReuseIdentifier:goodCellId];
 }
 
 
@@ -54,22 +54,19 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     SJGoodDetailViewCon *detailCon = [[SJGoodDetailViewCon alloc] init];
-    //todo 传递商品的ID
     [self.navigationController pushViewController:detailCon animated:YES];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-   
-    SJGoodCell *cell = [SJGoodCell goodCellWithTableView:tableView];
+    SJGoodCell *cell = [tableView dequeueReusableCellWithIdentifier:goodCellId];
+    #warning 设置模型数据
+//    NSLog(@"%@",cell);
+    
     return cell;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-
-    //在设置高度的回调中获取当前indexpath的cell 然后返回给他的frame的高度即可。在创建cell的时候记得最后把cell.frame.size.height 等于你内容的高。
-
-    SJGoodCell *cell = (SJGoodCell *)[self tableView:tableView cellForRowAtIndexPath:indexPath];
-    return cell.cellHeight;
+    return 150;
 }
 
 
